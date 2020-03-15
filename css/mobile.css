@@ -1,0 +1,508 @@
+@media (min-width: 1281px) {
+.banner_s{
+		display:block !important
+}
+.position-ab {
+    display: none !important;
+}
+.w-20p{
+	width:20% 
+}
+.card-product .img-wrap{
+	height:auto;
+}
+.list-group-item .team-highlights-couter{
+    bottom: -50px;
+}
+
+}
+@media (min-width: 1024px) {
+.navbar-header{
+	display: none
+}
+
+}
+@media (min-width: 1025px) {
+.navbar-header{
+	display: block;
+}
+.detail-address {
+    font-size: 14px;
+}
+}
+@media (max-width: 765px) {
+.navbar-header{
+	display: block !important
+}
+.nav-bar-logo{
+	display: block !important
+}
+.icon-nav-menu{
+		display: block !important
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+	.menu-custom .nav>li>a{
+			font-size:14px;
+			padding: 15px 5px;
+	}
+	.icon-nav-menu{
+		display: block !important
+	}
+	.position-ab{
+		display: none !important
+	}
+	#banner_index img {
+    height: 240px;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+	}
+	.box-right-duan-page {
+    width: 95px;
+    height: 95px;
+    border: 2px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 25px 5px 15px;
+    float: right;    
+	margin: 40px 10px;
+}
+#select_slider_banner{
+	margin-left: 0% 
+}
+.duan-website .btn-website{
+    margin-top: 10px;
+}
+.card-product .img-wrap{
+	height:auto;
+}
+.form_contact_member{
+	padding: 25.8px 40px;
+}
+.nha-moigioi{
+	width:14%;
+}
+.chudautu-number_rating{
+	padding-left:4px
+}
+.images-bdr50-head {
+    width: 130px;
+    height: 130px !important;
+    margin: 22px 0px 10px 0px;
+}
+#header-duan .title-media-news-bds {
+    padding-top: 20px;
+}
+#header-tp .box-right-duan-page{
+	width: 75px;
+    height: 75px;
+    border: 2px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 20px 9px 15px;
+    float: right;
+    margin: 10px 10px;
+    color: #fff;
+}
+.list-item-w100{
+	width: 100% !important;
+}
+#menu-siderbar .list-group .col-md-3{
+	width: 33.33333%
+}
+#menu-siderbar .list-group .list-group-item{
+	width: 100%;
+}
+.custom-menu-mobile #menu
+	{
+	height:400px;
+   overflow: auto;
+  -webkit-overflow-scrolling: touch;
+	}
+.team-highlights-couter {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.rating-team-highlights .rate:not(:checked) > label {
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 19px;
+    color: #ffc700;
+}
+}
+
+@media (min-width: 736px) and (max-width: 1023px) {
+	.banner_s{
+		display:none
+	}
+	#select_slider_banner{
+	margin-left: 0% 
+}
+	.custom-menu-mobile #menu
+	{
+	height:400px;
+	-webkit-overflow-scrolling: touch;
+   overflow: auto;
+	}
+	.pad_0{
+		padding:0px
+	}
+	.menu-custom .nav>li>a {
+    padding: 15px 5px;    
+    font-size: 11px;
+	}
+	.navbar-header{
+	display: none
+	}
+	.position-ab{
+	position:absolute !important;  
+	  right: 5px;
+	}
+	.btn-nav-menu .btn-default{
+	padding: 6px 4px;
+    font-size: 12px;
+	}
+	.mobile-hidden{
+		display:none !important;
+	}
+	.mobile-display{
+		display:block !important
+	}
+	.mobile-media-col3{
+	width: 33.33333333%; 
+	float:left
+	}
+	.mobile-media-col9{ 
+	width: 66.66666667%;
+	float:left
+	}
+	.box_price_news-mobile{
+		margin-top: 0px;
+		float: left;
+		text-align: left;
+	}
+	.phone_boss_new_post{
+		font-size:16px;
+	}
+	.col-xs-4-mobile{
+	width: 33.33333333%; 
+	float:left
+	}
+	.card-product .img-wrap{
+	height:auto;
+	}
+	.chudautu-website .btn-website{
+		    padding: 5px 10px;
+			margin-right: 5px;
+			font-size: 13px;
+	}
+	.form_contact_member{
+	    padding: 26.4px 23px;
+	}
+	.border-form-contact .contact_membet_input{
+    margin: 15px 0px;
+	}
+	.border-form-contact .contact_membet_area{
+    margin: 15px 0px;
+	}
+	#header-tp .box-right-duan-page{
+	width: 80px;
+    height: 80px;
+    border: 2px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 20px 9px 15px;
+    float: left;
+    margin: 10px;
+    color: #fff;
+	}
+		.icon-bdr-10{
+	margin-top: -23px;
+}
+.box-fixed-mobile{
+	display: block
+}
+#banner_index img {
+    height: 240px;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+
+}
+@media (min-width: 481px) and (max-width: 667px) {
+	.banner_s{
+		display:none
+	}
+	.modal-full .modal-content ul li {
+    width: 25%;
+	}
+	#select_slider_banner{
+	margin-left: 0% 
+}
+	.custom-menu-mobile #menu
+	{
+	height:400px;
+	 -webkit-overflow-scrolling: touch;
+   overflow: auto;
+	}
+	.box-feedback .col-md-4{
+		margin-top: 10px
+	}
+	.pad_0{
+		padding:0px
+	}
+	.icon-nav-menu{
+		display:none !important
+	}
+	.mobile-hidden{
+		display:none !important;
+	}
+	.mobile-display{
+		display:block !important
+	}
+	.menu-custom .navbar-brand{
+	float: left;
+    width: 50% !important;
+	}
+	.w-220px{
+		width:220px
+	}
+	.mobile-media-col3{
+	width: 33.33333333%; 
+	float:left
+	}
+	.mobile-media-col9{ 
+	width: 66.66666667%;
+	float:left
+	}
+	.box_price_news-mobile{
+		margin-top: 0px;
+		float: left;
+		text-align: left;
+	}
+	.phone_boss_new_post{
+		font-size:14px;
+	}
+	.card-product{
+		margin:5px 0px
+	}
+	.card-product .img-wrap{
+		height:auto;
+	}
+	.col-xs-4-mobile{
+	width: 33.33333333%; 
+	float:left
+	}
+	.chudautu-website .btn-website{
+		   padding: 5px 8px;
+    margin-right: 4px;
+    font-size: 13px;
+	}
+	.form_contact_member{
+		padding: 25.8px 23px;
+	}
+	.border-form-contact .contact_membet_input{
+    margin: 15px 0px;
+	}
+	.border-form-contact .contact_membet_area{
+    margin: 15px 0px;
+	}
+	#header-duan .duan-website .btn-website{
+		padding: 10px 20px;
+		margin-right: 5px;
+		font-size: 15px;
+		margin-top: 20px;
+	}
+	#header-tp .icon-bdr-10{
+		margin-top:-20px
+	}
+	#header-tp .box-right-duan-page{
+	width: 80px;
+    height: 80px;
+    border: 2px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 20px 9px 15px;
+    float: left;
+    margin: 10px;
+    color: #fff;
+	}
+#banner_index img {
+    height: 200px;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+}
+#menu-siderbar .well .btn-group {
+    float: left !important;
+    margin: 10px 0px;
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.banner_s{
+		display:none
+	}
+	#select_slider_banner{
+	margin-left: 0% 
+}
+	.pad_0{
+		padding:0px
+	}
+	.box-feedback .col-md-4{
+		margin-top: 10px
+	}
+	.icon-nav-menu{
+		display:none !important
+	}
+	.mobile-hidden{
+		display:none !important;
+	}
+	.mobile-display{
+		display:block !important
+	}
+	.menu-custom .navbar-brand{
+	float: left;
+    width: 50% !important;
+	}
+	.mobile-media-col9{
+	padding: 15px 0px;	
+	}
+	.box_price_news-mobile{
+		margin-top: 0px;
+		float: left;
+		text-align: left;
+	}
+	.pdr-15-mobile{
+		padding-right:0px
+	}
+	.phone_boss_new_post{
+		font-size:13px;
+	}
+	.col-xs-6-mobile{
+		width:100%;
+		float:left
+	}
+	.col-xs-6-mobile .card-product .img-wrap{
+		height:auto;
+	}
+	.rating-block {
+    width: 100%;
+    float: none;
+    text-align: center;
+	padding-left:20px
+	}
+	.number_rating{
+	float: none;
+    width: 100%;
+    text-align: center;
+	}
+	.chudautu-website .btn-website{
+	padding: 7px;
+    color: #27406d;
+    margin-left: 1.5px;
+	
+    font-size: 11px;
+	}
+	#header-duan .title-media-news-bds{
+		text-align:center;
+	}
+	.duan-website{
+		padding-left:3px
+	}
+	.duan-website .btn-website {
+    margin:20px 5.4px 10px;
+    font-size: 15px;
+    padding: 10px 18px;
+	}
+	.border-form-contact{
+		padding-left:0px;
+	}
+	.form_contact_member{
+		margin-top:15px
+	}
+	.border-form-contact .contact_membet_input{
+    margin: 15px 0px;
+	}
+	.border-form-contact .contact_membet_area{
+    margin: 15px 0px;
+	}
+	.border-box-contact{
+	padding-right:0px;
+}
+.mobile-box-tinhthanh{
+	    padding: 5px !important;
+    font-size: 13px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0px 3px 0px 0px !important;
+}
+#header-tp .icon-bdr-10{
+	width: 80px;
+    height: 80px;
+    margin-top: -18px;
+}
+#header-tp .icon {
+    width: 60px;
+    height: 60px;
+}
+#header-tp .icon .icon-home {
+    font-size: 35px;
+}
+.h1-tinhthanh{
+	 font-size: 25px
+}
+.h3-tinhthanh{
+	font-size: 15px;
+}
+#menu-siderbar .col-xs-3{
+	width: 100%
+}
+#menu-siderbar .col-xs-9{
+	width: 100%
+}
+#menu-siderbar #accordionMenu{
+	max-width: 100%;padding: 0px;
+}
+#menu-siderbar .col-xs-6-mobile{
+	padding: 0px
+}
+.box_contact_info{
+	display: none
+}
+#carousel .slides{
+transform: translate3d(0%, 0px, 0px) !important;
+}
+.box-fixed-mobile{
+	display: block
+}
+.modal-full .modal-content ul li {
+    width: 33.333%;
+}
+#banner_index img {
+	height: 135px;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+#menu-siderbar .well .btn-group {
+    float: left !important;
+    margin: 10px 0px;
+}
+}	

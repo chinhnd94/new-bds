@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BDS1</title>
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+            <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+            <link href="css/style.css" rel="stylesheet" id="bootstrap-css">
+            <link href="css/mobile.css" rel="stylesheet" id="bootstrap-css">
+			<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+			<link href="css/owl.carousel.css" rel="stylesheet">
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/slick.js"></script>
+			<script src="js/owl.carousel.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- menu -->
+<nav class="navbar navbar-inverse bgr-fff menu-custom  mobile-hidden">
+<div class="container-fluid">
+    <div class="navbar-header col-md-2">
+		<a class="navbar-brand nav-bar-logo" href="index.html"><img src="images/logo.png" /></a>
+	</div>
+	
+	<div class="collapse navbar-collapse js-navbar-collapse">
+		<ul class="nav navbar-nav pull-left">
+			<li><a href="ban.html" class="">Bán</a></li>
+            <li><a href="chothue.html" class="">Cho thuê</a></li>
+			<li><a href="dautu.html" class="">Đầu tư</a></li>
+			<li><a href="duan.html" class="">Dự án</a></li>
+			<li><a href="chudautu.html" class="">Chủ đầu tư</a></li>
+			<li><a href="sangiaodich.html" class="">sàn giao dịch</a></li>
+			<li><a href="nhamoigioi.html" class="">nhà môi giới</a></li>
+			<li><a href="blog.html" class="">blog</a></li>
+            <li><a href="video.html" class="">video</a></li>
+			<!-- <li class="text-right icon-nav-menu mobile-display"  href="#myModal" role="button" data-toggle="modal"><i class="icon-th"></i></li> -->
+			<!-- <li class="dropdown mega-dropdown"><a href="#">Danh bạ <span class="caret"></span></a></a>
+				<ul class="dropdown-menu mega-dropdown-menu">
+							<li><a href="muaban.html">Môi giới</a></li>
+                            <li><a href="muaban.html">Doanh nghiệp</a></li>
+				</ul>
+			</li> -->
+		</ul>
+		<ul class="nav navbar-nav pull-right  none_nav_mobi">
+			<li class="btn-nav-menu"><button class="btn btn-default color_tomato"><b>BDS đã lưu</b></button></li>
+			<li class="btn-nav-menu"><button class="btn btn-default color_tomato"><b>TK đã lưu</b></button></li>
+			<li class="icon-nav-menu"  href="#myModal" role="button" data-toggle="modal"><i class="icon-th"></i></li>
+		</ul>
+	</div>
+    </div>
+<div>
+</nav>
+<div class="mobile-display menu-mobi">
+<nav role="navigation" class="custom-menu-mobile">
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+    <ul id="menu">
+        <li><a href="ban.html" class="">Bán</a></li>
+        <li><a href="chothue.html" class="">Cho thuê</a></li>
+		<li><a href="dautu.html" class="">Đầu tư</a></li>
+		<li><a href="duan.html" class="">Dự án</a></li>
+		<li><a href="chudautu.html" class="">Chủ đầu tư</a></li>
+		<li><a href="sangiaodich.html" class="">sàn giao dịch</a></li>
+		<li><a href="nhamoigioi.html" class="">nhà môi giới</a></li>
+		<li><a href="blog.html" class="">blog</a></li>
+        <li><a href="video.html" class="">video</a></li>
+        <li><button class="btn btn-default color_tomato"><b>BDS đã lưu</b></button></li>
+		<li><button class="btn btn-default color_tomato"><b>TK đã lưu</b></button></li>
+    </ul>
+    </div>
+    <div class="logo-menu-mobile"><a class="navbar-brand nav-bar-logo" href="index.html"><img src="images/logo.png" /></a></div>
+	<div class="text-right icon-menu-modal" href="#myModal" role="button" data-toggle="modal"><i class="icon-th pull-right"></i></div>
+</nav>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+	    <div class="modal-dialog modal-full" role="document">
+	        <div class="modal-content">
+	            <div class="container">
+	            	<h4 class="title-section mrt-15" ><i class="icon-th"></i>  CÁC LOẠI BĐS</h4>
+	        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Đóng <i class="icon-remove"></i></span></button>
+	            </div>
+	            <div class="container">
+	            	<ul><li><a href="http://datnen.batdongsan.vn" rel="nofollow" style="background:#850e10;color:#fff">Đất nền</a></li><li><a href="http://datvang.batdongsan.vn" rel="nofollow" style="background:#FEC300;color:#000">Đất vàng</a></li><li><a href="http://nharieng.batdongsan.vn" rel="nofollow" style="background:#D3530E;color:#fff">Nhà riêng</a></li><li><a href="http://nhamatpho.batdongsan.vn" rel="nofollow" style="background:#025A78;color:#fff">Nhà mặt phố</a></li><li><a href="http://nhaco.batdongsan.vn" rel="nofollow" style="background:#996633;color:#fff">Nhà cổ</a></li><li><a href="http://luxuryhome.batdongsan.vn" rel="nofollow" style="background:#560202;color:#fff">Luxury home</a></li><li><a href="http://nhabietthu.batdongsan.vn" rel="nofollow" style="background:#003399;color:#fff">Nhà biệt thự</a></li><li><a href="http://bietthunghiduong.batdongsan.vn" rel="nofollow" style="background:#005260;color:#fff">Biệt thự nghỉ dưỡng</a></li><li><a href="http://canhogiare.batdongsan.vn" rel="nofollow" style="background:#FDBE56;color:#000">Căn hộ giá rẻ</a></li><li><a href="http://canhotrungcap.batdongsan.vn" rel="nofollow" style="background:#FFFF00;color:#000">Căn hộ trung cấp</a></li><li><a href="http://canhotapthe.batdongsan.vn" rel="nofollow" style="background:#DAA404;color:#fff">Căn hộ tập thể</a></li><li><a href="http://canhomini.batdongsan.vn" rel="nofollow" style="background:#6C1387;color:#fff">Căn hộ mini</a></li><li><a href="http://canhostudio.batdongsan.vn" rel="nofollow" style="background:#92D14F;color:#fff">Căn hộ studio</a></li><li><a href="http://canhocaocap.batdongsan.vn" rel="nofollow" style="background:#181C4B;color:#fff">Căn hộ cao cấp</a></li><li><a href="http://condotel.batdongsan.vn" rel="nofollow" style="background:#393060;color:#fff">Căn hộ Condotel</a></li><li><a href="http://officetel.batdongsan.vn" rel="nofollow" style="background:#0033CC;color:#fff">Căn hộ Officetel</a></li><li><a href="http://hometel.batdongsan.vn" rel="nofollow" style="background:#003263;color:#fff">Căn hộ Hometel</a></li><li><a href="http://penthouse.batdongsan.vn" rel="nofollow" style="background:#213745;color:#fff">Căn hộ Penthouse</a></li><li><a href="http://shophouse.batdongsan.vn" rel="nofollow" style="background:#4D5B41;color:#fff">Nhà phố Shophouse</a></li><li><a href="http://kiot.batdongsan.vn" rel="nofollow" style="background:#00B5C4;color:#fff">Cửa hàng Kiot</a></li><li><a href="http://trungtamthuongmai.batdongsan.vn" rel="nofollow" style="background:#3591A8;color:#fff">Trung tâm thương mại</a></li><li><a href="http://nhatro.batdongsan.vn" rel="nofollow" style="background:#118AE9;color:#fff">Nhà trọ</a></li><li><a href="http://homestay.batdongsan.vn" rel="nofollow" style="background:#ff6600;color:#fff">Homestay</a></li><li><a href="http://timeshare.batdongsan.vn" rel="nofollow" style="background:#0070C0;color:#fff">Time share</a></li><li><a href="http://apartment.batdongsan.vn" rel="nofollow" style="background:#CC0066;color:#fff">Apartment</a></li><li><a href="http://khachsan.batdongsan.vn" rel="nofollow" style="background:#F28226;color:#fff">Khách sạn</a></li><li><a href="http://nhahang.batdongsan.vn" rel="nofollow" style="background:#C00000;color:#fff">Nhà hàng</a></li><li><a href="http://resort.batdongsan.vn" rel="nofollow" style="background:#0070C0;color:#fff">Khu du lịch Resort</a></li><li><a href="http://beautyhouse.batdongsan.vn" rel="nofollow" style="background:#990134;color:#fff">Beauty House</a></li><li><a href="http://medihouse.batdongsan.vn" rel="nofollow" style="background:#507BAF;color:#fff">Medi house</a></li><li><a href="http://kidhouse.batdongsan.vn" rel="nofollow" style="background:#FF0000;color:#fff">Kid house</a></li><li><a href="http://nursinghome.batdongsan.vn" rel="nofollow" style="background:#DAA435;color:#fff">Nursing Home</a></li><li><a href="http://tinyhouse.batdongsan.vn" rel="nofollow" style="background:#7030A0;color:#fff">Tiny house</a></li><li><a href="http://mobilehome.batdongsan.vn" rel="nofollow" style="background:#FF0066;color:#fff">Mobile home</a></li><li><a href="http://trangtrai.batdongsan.vn" rel="nofollow" style="background:#36A800;color:#fff">Trang trại</a></li><li><a href="http://nhaxuongkhobai.batdongsan.vn" rel="nofollow" style="background:#788494;color:#fff">Nhà xưởng kho bãi</a></li><li><a href="http://khucongnghiep.batdongsan.vn" rel="nofollow" style="background:#173660;color:#fff">Khu công nghiệp</a></li><li><a href="http://vanphong.batdongsan.vn" rel="nofollow" style="background:#09086E;color:#fff">Văn phòng</a></li><li><a href="http://vanphongao.batdongsan.vn" rel="nofollow" style="background:#0D61A1;color:#fff">Văn phòng ảo</a></li><li><a href="http://coworkingspace.batdongsan.vn" rel="nofollow" style="background:#808000;color:#fff">Coworking space</a></li></ul>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+<!-- menu -->
+<div class="container-fluid">
+<!-- banner -->
+<section id="header-duan">
+<div class="box-new-bds">
+			<div class="media col-md-1 mobile-media-col3 nha-moigioi">
+              <img class="d-flex align-self-start images-bdr50-head" src="images/moigioi/moigioi1.jpg" alt="Generic placeholder image">
+			</div>
+            <div class="media-body pl-3 col-md-6 mobile-media-col9">
+				<h3 class="title-media-news-bds mrt-15"><a href="muabanchitiet.html">Tên nhà môi giới</a></h3>
+				<div class="detail_post_new row pd-0 mr-0">
+					<div class="row mr-0" style="padding-top: 9px">
+						<div class="rating-block">
+							<button type="button" class="btn btn-warning btn-sm btn-rating" aria-label="Left Align">
+							  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+							</button>
+							<button type="button" class="btn btn-warning btn-sm btn-rating" aria-label="Left Align">
+							  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+							</button>
+							<button type="button" class="btn btn-warning btn-sm btn-rating" aria-label="Left Align">
+							  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+							</button>
+							<button type="button" class="btn btn-default btn-grey btn-sm btn-rating" aria-label="Left Align">
+							  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+							</button>
+							<button type="button" class="btn btn-default btn-grey btn-sm btn-rating" aria-label="Left Align">
+							  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+							</button>
+							<div class="number_rating">(123 Đánh giá)</div>
+						</div>
+						<div class="duan-website"><a class="btn btn-website project-highlights-btn" href="">Website</a><a class="btn btn-website project-highlights-btn mobile-display" href="">123 Listing</a><a class="btn btn-website project-highlights-btn mobile-display" href="">123 Thành viên</a></div>
+					
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 pull-right mobile-hidden">
+				<div class="box-right-duan-page">123<br/>Thành viên</div>
+				<div class="box-right-duan-page">123<br/>Listing</div>		
+			</div>
+		</div>
+</section>
+<!-- banner -->
+<!-- Tin tức nổi bật -->
+<section id="project-highlights">
+	<h2 class="title-section">Tin tức nổi bật</h2>
+	<div class="row">
+		<div class="col-md-3 col-xs-6 col-xs-6-mobile">
+			<figure class="card card-product">
+				<div class="img-wrap"><img src="images/duan/duan_index1.jpg">
+				</div>
+				<figcaption class="info-wrap">
+					<a href="tintucchitiet.html"><h4 class="title-section">Tiêu đề của thông tin xuất hiện ở đây</h4></a>
+				    <p class="color_999 color_999">123 Lượt xem | Cách đây 5 phút</p>
+				</figcaption>
+			</figure>
+		</div> 
+		<div class="col-md-3 col-xs-6 col-xs-6-mobile">
+			<figure class="card card-product">
+				<div class="img-wrap"><img src="images/duan/duan_index1.jpg">
+				</div>
+				<figcaption class="info-wrap">
+				<a href="tintucchitiet.html"><h4 class="title-section">Tiêu đề của thông tin xuất hiện ở đây</h4></a>
+				 <p class="color_999 color_999">123 Lượt xem | Cách đây 5 phút</p>
+				</figcaption>
+			</figure>
+		</div> 
+		<div class="col-md-3 col-xs-6 col-xs-6-mobile">
+			<figure class="card card-product">
+				<div class="img-wrap"><img src="images/duan/duan_index1.jpg">
+				</div>
+				<figcaption class="info-wrap">
+				  <a href="tintucchitiet.html"><h4 class="title-section">Tiêu đề của thông tin xuất hiện ở đây</h4></a>
+				  <p class="color_999 color_999">123 Lượt xem | Cách đây 5 phút</p>
+				</figcaption>
+			</figure>
+		</div> 
+		<div class="col-md-3 col-xs-6 col-xs-6-mobile">
+			<figure class="card card-product">
+				<div class="img-wrap"><img src="images/duan/duan_index1.jpg">
+				</div>
+				<figcaption class="info-wrap">
+						<a href="tintucchitiet.html"><h4 class="title-section">Tiêu đề của thông tin xuất hiện ở đây</h4></a>
+				  <p class="color_999 color_999">123 Lượt xem | Cách đây 5 phút</p>
+				</figcaption>
+			</figure>
+		</div> 
+	</div>
+</section>
+<!-- Tin tức nổi bật -->
+<!-- Bất động sản nổi bật -->
+<section class="projects-section bds-highlights">		
+<h2 class="title-section">Bất động sản nổi bật</h2>
+		<div class="outer-container">
+			<div class="projects-carousel owl-carousel owl-theme">
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>	
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha3.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>				
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>			
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha4.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>	
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha7.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>		
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha5.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>	
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>		
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>	
+				<div class="project-block col-md-2"><a href="chitietmuaban.html">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha3.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</a></div>	
+		</div>		
+</section>
+<!-- Bất động sản nổi bật -->
+<!-- Đất nền -->
+<section class="projects-section bds-highlights">		
+<h2 class="title-section">Đất nền</h2>
+		<div class="outer-container">
+			<div class="projects-carousel owl-carousel owl-theme">
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha3.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>				
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>			
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha4.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha7.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>		
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha5.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>		
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha3.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+		</div>		
+</section>
+<!-- Đất nền -->
+<!-- Căn hộ -->
+<section class="projects-section bds-highlights">		
+<h2 class="title-section">Căn hộ</h2>
+		<div class="outer-container">
+			<div class="projects-carousel owl-carousel owl-theme">
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha3.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>				
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>			
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha4.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha7.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>		
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha5.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>		
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+				<div class="project-block col-md-2">
+					<div class="inner-box">
+						<div class="image">
+							<img class="height200" src="images/slider/nha3.jpg" alt="" />
+						</div>
+					</div>
+					<div class="detail-bds-highlights">
+						<h4 class="price-bds-highlights">$ 40,000,000</h4>
+						<p class="detail-room"><i class="icon-home"></i> <b> 2 bd </b> <i class="icon-tint"></i> <b> 2 ba </b> <i class="icon-fullscreen"></i> <b>730 sqft</b></p>
+						<p class="detail-address">Số 45/128 Ngõ 328 Nguyễn Ngọc Nại Thanh Xuân Hà Nội Việt Nam</p>
+					</div>
+				</div>	
+		</div>		
+</section>
+<!-- Căn hộ -->
+<!--  -->
+<section id="city-highlights"  class="projects-section">
+<div class="col-md-6 pd-0 col-xs-6">
+	<div class="project-block" style="padding-left: 0px;">
+		<div class="inner-box">
+				<div class="image">
+						<img class="height400" src="images/slider/nha1.jpg" alt="" />
+						<div class="overlay-box">
+							<h1>Thành Phố Hồ Chí Minh</h1>
+							<h3>108452 tin rao</h3>
+						</div>	
+				</div>
+		</div>
+	</div>	
+</div>
+<div class="col-md-3 pd-0 col-xs-3">
+	<div class=" project-block">
+	<div class="inner-box height-245 mrb-5">
+			<div class="image">
+					<img class="height-245" src="images/slider/nha3.jpg" alt="" />
+					<div class="overlay-box">
+							<h3>Thành Phố Hồ Chí Minh</h3>
+							<h5>108452 tin rao</h5>
+					</div>	
+			</div>
+	</div>
+	<div class="inner-box height-245 mrb-5">
+			<div class="image">
+					<img class="height-245" src="images/slider/nha2.jpg" alt="" />
+					<div class="overlay-box">
+							<h3>Thành Phố Hồ Chí Minh</h3>
+							<h5>108452 tin rao</h5>
+					</div>	
+			</div>
+	</div>
+	</div>
+</div>
+<div class="col-md-3 pd-0 col-xs-3">
+	<div class=" project-block" style="padding-right: 0px;">
+	<div class="inner-box height-245 mrb-5">
+			<div class="image">
+					<img class="height-245" src="images/slider/nha10.jpg" alt="" />
+					<div class="overlay-box">
+							<h3>Thành Phố Hồ Chí Minh</h3>
+							<h5>108452 tin rao</h5>
+					</div>	
+			</div>
+	</div>
+	<div class="inner-box height-245 mrb-5">
+			<div class="image">
+					<img class="height-245" src="images/slider/nha9.jpg" alt="" />
+					<div class="overlay-box">
+							<h3>Thành Phố Hồ Chí Minh</h3>
+							<h5>108452 tin rao</h5>
+					</div>	
+			</div>
+	</div>
+	</div>
+</div>
+</section>
+<!--  -->
+
+<!-- dự án nổi bật -->
+<section id="project-highlights">
+	<h1 class="title-section">Dự án nổi bật</h1>
+	<div class="row">
+		<div class="col-md-3 col-xs-6 col-xs-6-mobile">
+			<figure class="card card-product">
+				<div class="img-wrap"><img src="images/duan/duan_index1.jpg">
+				<div class="logo_boss">
+					<img src="images/logo/vingroup.png">
+					</div>
+				</div>
+				<figcaption class="info-wrap">
+						<div class="col-md-6">
+						<h3 class="title-section">Good product</h3>
+						<p class="project-highlights-address">Cầu Giấy - Hà Nội</p>
+						</div>	
+						<div class="col-md-6">
+							<a href="chitietduan.html" class="title-section project-highlights-btn">Xem dự án</a>
+						</div>
+				</figcaption>
+			</figure>
+		</div> 
+		<div class="col-md-3 col-xs-6 col-xs-6-mobile">
+			<figure class="card card-product">
+				<div class="img-wrap">
+					<img src="images/duan/duan_index2.jpg">
+					<div class="logo_boss">
+					<img src="images/logo/vingroup.png">
+					</div>	
+				</div>
+				<figcaption class="info-wrap">
+						<div class="col-md-6">
+						<h3 class="title-section">Good product</h3>
+						<p class="project-highlights-address">Cầu Giấy - Hà Nội</p>
+						</div>	
+						<div class="col-md-6">
+							<a href="chitietduan.html" class="title-section project-highlights-btn">Xem dự án</a>
+						</div>
+				</figcaption>
+			</figure>
+		</div> 
+		<div class="col-md-3 col-xs-6 col-xs-6-mobile">
+			<figure class="card card-product">
+				<div class="img-wrap"><img src="images/duan/duan_index3.jpg">
+				<div class="logo_boss">
+					<img src="images/logo/vingroup.png">
+					</div>
+				</div>
+				<figcaption class="info-wrap">
+						<div class="col-md-6">
+						<h3 class="title-section">Good product</h3>
+						<p class="project-highlights-address">Cầu Giấy - Hà Nội</p>
+						</div>	
+						<div class="col-md-6">
+							<a href="chitietduan.html" class="title-section project-highlights-btn">Xem dự án</a>
+						</div>
+				</figcaption> 
+			</figure>
+		</div> 
+		<div class="col-md-3 col-xs-6 col-xs-6-mobile">
+			<figure class="card card-product">
+				<div class="img-wrap"><img src="images/duan/duan_index4.jpg">
+				<div class="logo_boss">
+					<img src="images/logo/vingroup.png">
+					</div>
+				</div>
+				<figcaption class="info-wrap">
+					<div class="col-md-6">
+						<h3 class="title-section">Good product</h3>
+						<p class="project-highlights-address">Cầu Giấy - Hà Nội</p>
+					</div>	
+					<div class="col-md-6">
+						<a href="chitietduan.html" class="title-section project-highlights-btn">Xem dự án</a>
+					</div>
+				</figcaption>
+			</figure>
+		</div>
+	</div>
+</section>
+<!-- dự án nổi bật -->
+<!-- liên hệ -->
+<section id="contact-boss">
+	<h2 class="title-section">Liên hệ</h2>
+	<div class="col-md-6 col-xs-6 col-xs-6-mobile pd-0 border-box-contact">
+		<div class="logo_contact">
+			<img src="images/slider/nha2.jpg" />
+			<div class="box-detail-contact">
+			<h3>Tên của thành viên</h3>
+			<div class="col-md-2 pd-0 col-xs-3"><h4>Địa chỉ</h4></div>
+			<div class="col-md-10 pd-0 col-xs-9"><h4>Thông tin địa chỉ cụ thể</h4></div>
+			<div class="col-md-2 pd-0 col-xs-3"><h4>Điện thoại</h4></div>
+			<div class="col-md-10 pd-0 col-xs-9"><h4>035.365.3665</h4></div>
+			<div class="col-md-2 pd-0 col-xs-3"><h4>Email</h4></div>
+			<div class="col-md-10 pd-0 col-xs-9"><h4>lienhe@gmail.com</h4></div>
+			<div class="col-md-2 pd-0 col-xs-3"><h4>Website<h4></div>
+			<div class="col-md-10 pd-0 col-xs-9"><h4>helo.com.vn</h4></div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 col-xs-6 col-xs-6-mobile pd-0 border-form-contact">
+		<div class="form_contact_member">
+			<h1>Liên hệ với thành viên</h1>
+			<input class="contact_membet_input" name="name" placeholder="Họ và Tên"/>
+			<input class="contact_membet_input" name="phone" placeholder="Điện thoại"/>
+			<input class="contact_membet_input" name="email" placeholder="Địa chỉ email"/>
+			<textarea class="contact_membet_area" name="content"  placeholder="Nội dung" rows="6"></textarea>
+		</div>
+	</div>
+</section>
+<!-- liên hệ -->
+</div>
+<!-- footer -->
+<footer id="footer_index">
+	<div id="head_footer">
+		<div class="container-fluid">
+			<div class="col-md-3">
+			<h3>Website: Listing.com.vn</h3>
+			</div>
+			<div class="col-md-3">
+			<h3>Mobile: 0945.33.88.77</h3>
+			</div>
+			<div class="col-md-3">
+			<h3>Email: info@listing.vn</h3>
+			</div>
+			<div class="col-md-3">
+			<button class="title-section project-highlights-btn btn-footer">Liên hệ</button>
+			</div>
+		</div>
+	</div>
+	<div id="bottom-footer">
+		<div class="container-fluid">
+			<div class="col-md-4 text-left col-xs-6 col-xs-6-mobile">
+			<h3>Hệ thống đăng tin và tiếp thị bất động sản thế hệ mới</h3>
+			<p>Địa điểm giao dịch: Tâng 1, Cung Tri Thức thành phố số 1 Trần Thái Tông, Cầu Giấy, Hà Nội</p>
+			<p>Trụ sở chính: Số 14 Villa, The Manor, KDT Mỹ Đình, Mễ Trì,P.Mỹ Đình 1, Q. Nam Từ Liêm, Hà Nội</p>
+			<p>Điện thoại: 0945.33.88.77</p>
+			<p>Email: info@listing.vn</p>
+			<p>Website: Listing.com.vn</p>
+			</div>
+			<div class="col-md-4 link-footer mobile-hidden">
+			<h3>Liên Kết</h3>
+			<p><a href="gioithieu.html">Giới Thiệu</a></p>
+			<p><a href="thongtin.html">Thông Tin</a></p>
+			<p><a href="dichvu.html">Dịch Vụ</a></p>
+			<p><a href="baogia.html">Báo Giá</a></p>
+			<p><a href="quydinh.html">Quy Định</a></p>
+			<p><a href="tuyendung.html">Tuyển Dụng</a></p>
+			<p><a href="hoidap.html">Hỏi Đáp</a></p>
+			<p><a href="lienhe.html">Liên Hệ</a></p>
+			</div>
+			<div class="col-md-4 col-xs-12 text-left">
+			<h3>Tương tác mạng xã hội</h3>
+			 <div class="social-icons"> 
+                <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+                <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+	            <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+	        </div>
+			<h3>Nhận bản tin xúc tiến đầu tư</h3>
+			<input class="email_footer" type="text" placeholder="Địa chỉ email của bạn" />
+			<div class="box-download">
+				<a href="#" class="btn btn-store">
+                <span class="fa fa-apple fa-3x pull-left"></span> 
+                <span class="btn-label">Download on the</span>
+                <span class="btn-caption">App Store</span>
+            </a>
+            <a href="#" class="btn btn-store">
+                <span class="fa fa-android fa-3x pull-left"></span> 
+                <span class="btn-label">Download on the</span>
+                <span class="btn-caption">Google Play</span>
+            </a>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="copy-right">
+		<div class="container-fluid">
+			<h3> © BDS Ecosytem @batdongsan.com.vn $ BDS Venture # Realtor PRO & Realtor CLUB % Mega Store Home </h3>
+		</div>
+	</div>
+</footer>
+<!-- footer -->
+</body>
+</html>
+<script>
+$(document).ready(function(){
+    $('#CarouselFlag').carousel({
+        interval: 5000,
+		autoplay: true,
+    })
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+$('#myCarousel').carousel({
+		//interval: 4000
+	});
+	(function($) {
+
+	// Projects Carousel
+	if ($('.projects-carousel').length) {
+		$('.projects-carousel').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: false,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				800:{
+					items:3
+				},
+				1024:{
+					items:4
+				},
+				1100:{
+					items:4
+				},
+				1200:{
+					items:5
+				},
+				1600:{
+					items:6
+				}
+			}
+		});    		
+	}
+
+})(window.jQuery);
+</script>
